@@ -1,0 +1,34 @@
+{
+  "name": "RACI Default Token List",
+  "timestamp": "2026-03-26T00:00:00.000Z",
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  },
+  "keywords": [
+    "raci",
+    "erc20",
+    "token"
+  ],
+  "tags": {
+    "utility": {
+      "name": "Utility",
+      "description": "Utility token for the RACI ecosystem"
+    }
+  },
+  "logoURI": "https://example.com/assets/token-icon-512.png",
+  "tokens": [
+    {
+      "chainId": 56,
+      "address": "0x705cda6854ceCcAD7187FFb072c65F087f500415",
+      "name": "RACI Token",
+      "symbol": "RACI",
+      "decimals": 18,
+      "logoURI": "https://example.com/assets/token-icon-512.png",
+      "tags": [
+        "utility"
+      ]
+    }
+  ]
+}
