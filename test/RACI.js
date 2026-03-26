@@ -20,7 +20,7 @@ describe("RACI", function () {
   it("sets fixed metadata and initial supply on deployment", async function () {
     const { token, owner, holder } = await deployToken();
 
-    expect(await token.name()).to.equal("RACI Token");
+    expect(await token.name()).to.equal("RACI");
     expect(await token.symbol()).to.equal("RACI");
     expect(await token.decimals()).to.equal(18);
     expect(await token.MAX_SUPPLY()).to.equal(MAX_SUPPLY);
@@ -65,7 +65,7 @@ describe("RACI", function () {
     const tokenAddress = await token.getAddress();
 
     const domain = {
-      name: "RACI Token",
+      name: "RACI",
       version: "1",
       chainId,
       verifyingContract: tokenAddress
@@ -158,7 +158,7 @@ describe("RACI", function () {
     const chainId = (await ethers.provider.getNetwork()).chainId;
 
     const domain = {
-      name: "RACI Token",
+      name: "RACI",
       version: "1",
       chainId,
       verifyingContract: await token.getAddress()

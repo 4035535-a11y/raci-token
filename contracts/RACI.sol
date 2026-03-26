@@ -11,8 +11,8 @@ contract RACI is ERC20, ERC20Permit, Ownable {
 
     // Конструктор выпускает фиксированное количество токенов на указанный адрес
     constructor(address initialHolder, address initialOwner)
-        ERC20("RACI Token", "RACI")
-        ERC20Permit("RACI Token")
+        ERC20("RACI", "RACI")
+        ERC20Permit("RACI")
         Ownable(initialOwner)
     {
         _mint(initialHolder, MAX_SUPPLY);

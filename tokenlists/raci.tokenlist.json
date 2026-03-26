@@ -17,15 +17,15 @@
       "description": "Utility token for the RACI ecosystem"
     }
   },
-  "logoURI": "https://example.com/assets/token-icon-512.png",
+  "logoURI": "https://4035535-a11y.github.io/raci-token/assets/token-icon-512.png",
   "tokens": [
     {
       "chainId": 56,
-      "address": "0x705cda6854ceCcAD7187FFb072c65F087f500415",
-      "name": "RACI Token",
+      "address": "0x06A168Ea18B335915cCfAbA2ef02829AFd582a7B",
+      "name": "RACI",
       "symbol": "RACI",
       "decimals": 18,
-      "logoURI": "https://example.com/assets/token-icon-512.png",
+      "logoURI": "https://4035535-a11y.github.io/raci-token/assets/token-icon-512.png",
       "tags": [
         "utility"
       ]

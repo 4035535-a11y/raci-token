@@ -4,7 +4,7 @@ Minimal fixed-supply ERC-20 token built on OpenZeppelin.
 
 ## Token parameters
 
-- Name: `RACI Token`
+- Name: `RACI`
 - Symbol: `RACI`
 - Decimals: `18`
 - Max supply at deployment: `100,000,000,000 RACI`
