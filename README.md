@@ -34,6 +34,8 @@ Minimal fixed-supply ERC-20 token built on OpenZeppelin.
 
 A starter token list is available at `tokenlists/raci.tokenlist.json`.
 
+For GitHub Pages publishing, the public copy is also available at `docs/tokenlists/raci.tokenlist.json`.
+
 Before publishing it, replace:
 
 - `address` with the deployed token contract address
@@ -55,6 +57,10 @@ After pushing this project to GitHub:
 Then your token icon URL will be:
 
 `https://<github-username>.github.io/<repository-name>/assets/token-icon-512.png`
+
+And your public token list URL will be:
+
+`https://<github-username>.github.io/<repository-name>/tokenlists/raci.tokenlist.json`
 
 ## Local setup
 
