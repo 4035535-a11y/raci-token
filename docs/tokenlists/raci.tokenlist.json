@@ -1,10 +1,10 @@
 {
   "name": "RACI Default Token List",
-  "timestamp": "2026-03-26T00:00:00.000Z",
+  "timestamp": "2026-04-07T00:00:00.000Z",
   "version": {
     "major": 0,
     "minor": 1,
-    "patch": 0
+    "patch": 1
   },
   "keywords": [
     "raci",

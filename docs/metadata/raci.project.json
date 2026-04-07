@@ -1,0 +1,20 @@
+{
+  "name": "RACI",
+  "symbol": "RACI",
+  "chain": "BNB Smart Chain",
+  "chainId": 56,
+  "address": "0x06A168Ea18B335915cCfAbA2ef02829AFd582a7B",
+  "website": "https://raciproject.com",
+  "explorer": "https://bscscan.com/token/0x06A168Ea18B335915cCfAbA2ef02829AFd582a7B",
+  "tokenList": "https://4035535-a11y.github.io/raci-token/tokenlists/raci.tokenlist.json",
+  "icons": {
+    "token512": "https://4035535-a11y.github.io/raci-token/assets/token-icon-512.png",
+    "trustWallet256": "https://4035535-a11y.github.io/raci-token/assets/raci-token-logo-256.png",
+    "bscscan64": "https://4035535-a11y.github.io/raci-token/assets/raci-token-logo-64.png",
+    "bscscan32svg": "https://4035535-a11y.github.io/raci-token/assets/raci-token-logo-32.svg"
+  },
+  "contacts": {
+    "general": "info@raciproject.com",
+    "support": "support@raciproject.com"
+  }
+}

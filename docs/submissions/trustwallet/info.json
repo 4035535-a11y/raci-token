@@ -1,0 +1,27 @@
+{
+  "name": "RACI",
+  "type": "BEP20",
+  "symbol": "RACI",
+  "decimals": 18,
+  "description": "RACI is the utility token of the World Speed Project on BNB Chain. It connects the public RACI website, community activity, reward mechanics, and token presentation around global speed records and major events.",
+  "website": "https://raciproject.com",
+  "explorer": "https://bscscan.com/token/0x06A168Ea18B335915cCfAbA2ef02829AFd582a7B",
+  "id": "0x06A168Ea18B335915cCfAbA2ef02829AFd582a7B",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://raciproject.com"
+    },
+    {
+      "name": "docs",
+      "url": "https://4035535-a11y.github.io/raci-token/"
+    },
+    {
+      "name": "token-list",
+      "url": "https://4035535-a11y.github.io/raci-token/tokenlists/raci.tokenlist.json"
+    }
+  ],
+  "tags": [
+    "utility"
+  ]
+}

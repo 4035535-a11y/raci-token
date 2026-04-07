@@ -19,6 +19,9 @@ Minimal fixed-supply ERC-20 token built on OpenZeppelin.
 - `scripts/deploy.js`: local deployment script for Hardhat
 - `assets/logo.png`: original project logo
 - `assets/token-icon-512.png`: square token icon for wallets, token lists, and branding
+- `assets/trustwallet/logo.png`: 256x256 logo prepared for Trust Wallet submission
+- `assets/bscscan/raci-token-logo-64.png`: 64x64 PNG prepared for BscScan
+- `assets/bscscan/raci-token-logo-32.svg`: 32x32 SVG prepared for BscScan
 - `tokenlists/raci.tokenlist.json`: token list template for wallets and DEX integrations
 - `tests/RACI_test.sol`: legacy Remix test file
 - `scripts/deploy_with_ethers.ts` and `scripts/deploy_with_web3.ts`: legacy Remix deployment scripts
@@ -27,6 +30,7 @@ Minimal fixed-supply ERC-20 token built on OpenZeppelin.
 
 - Use `assets/logo.png` for docs, website, and marketing materials.
 - Use `assets/token-icon-512.png` as the default token icon for wallets and token lists.
+- The GitHub Pages copy is synchronized with the icon currently used on `https://raciproject.com`.
 - If an exchange or wallet asks for a larger square icon, upscale or export from the original source rather than from the 512x512 file.
 - `docs/` contains a ready-to-publish GitHub Pages site with the token icon and contract address.
 
@@ -58,9 +62,23 @@ Then your token icon URL will be:
 
 `https://<github-username>.github.io/<repository-name>/assets/token-icon-512.png`
 
+Additional public asset URLs:
+
+- `https://<github-username>.github.io/<repository-name>/assets/raci-token-logo-256.png`
+- `https://<github-username>.github.io/<repository-name>/assets/raci-token-logo-64.png`
+- `https://<github-username>.github.io/<repository-name>/assets/raci-token-logo-32.svg`
+
 And your public token list URL will be:
 
 `https://<github-username>.github.io/<repository-name>/tokenlists/raci.tokenlist.json`
+
+Project metadata URL:
+
+`https://<github-username>.github.io/<repository-name>/metadata/raci.project.json`
+
+Trust Wallet submission info URL:
+
+`https://<github-username>.github.io/<repository-name>/submissions/trustwallet/info.json`
 
 ## Local setup
 
